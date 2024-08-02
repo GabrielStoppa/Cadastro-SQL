@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualiza Senha - JS</title>
+    <link rel="stylesheet" href="../Style/cadastro.css">
+    <link rel="stylesheet" href="../Style/atualiza_senha.css">
+</head>
+<body>
+    <script src="./JS/script.js"></script>
+    <div class="container">
+        <form id="updateForm">
+            <div class="itens-login">
+                <div class="email-senha">
+                    <label class="text-input">Confirme o seu Email</label>
+                </div>
+                <div class="email-senha">
+                    <input type="email" id="updateEmail" placeholder="Email: " required>
+                </div>
+                <div class="email-senha">
+                    <label class="text-input">Senha</label>
+                </div>
+                <div class="email-senha">
+                    <input type="password" id="currentPassword" placeholder="Senha: " required>
+                </div>
+                <div class="email-senha">
+                    <label class="text-input">Nova Senha</label>
+                </div>
+                <div class="email-senha">
+                    <input type="password" id="newPassword" placeholder="Nova Senha: " required>
+                </div>
+                <br>
+                <br>
+                <div class="email-senha">
+                    <button type="submit" class="bt">
+                        <span class="text-bt">Atualizar</span>
+                    </button>
+                    <button type="button" class="bt-voltar">
+                        <a href="./login.html" class="text">Voltar</a>
+                    </button>
+                </div>
+                <h3 id="msg"></h3>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

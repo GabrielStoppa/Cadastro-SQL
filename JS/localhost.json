@@ -1,0 +1,7 @@
+{
+    "nome": "John",
+    "sobrenome": "Doe",
+    "data": "2000-01-01",
+    "email": "john.doe@example.com",
+    "senha": "senha123"
+}
